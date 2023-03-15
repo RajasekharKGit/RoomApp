@@ -50,7 +50,7 @@ class AddFragment : Fragment() {
             )
 
             mUserViewModel.addUser(contact)
-            Toast.makeText(requireContext(), "Successfully added!", Toast.LENGTH_LONG).show()
+            Toast.makeText(requireContext(), " Successfully added!Successfully added!Successfully added!Successfully added!Successfully added!Successfully added!", Toast.LENGTH_LONG).show()
 
             findNavController().navigate(R.id.action_addFragment_to_listFragment)
         }else{
