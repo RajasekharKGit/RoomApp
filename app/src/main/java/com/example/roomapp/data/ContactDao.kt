@@ -22,4 +22,7 @@ interface ContactDao {
     @Query("SELECT * FROM contact_table ORDER BY id ASC")
     fun readAllData(): LiveData<List<Contact>>
 
+    @Update
+    suspend fun updateSavedContact(contact: Contact)
+  
 }
