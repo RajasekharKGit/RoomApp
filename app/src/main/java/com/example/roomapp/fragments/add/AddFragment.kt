@@ -28,6 +28,7 @@ class AddFragment : Fragment() {
 
         mUserViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
 
+
         view.add_btn.setOnClickListener {
             insertDataToDatabase()
         }
